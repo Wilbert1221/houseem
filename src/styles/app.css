@@ -1,0 +1,27 @@
+/*
+Colors
+
+White text: #F7FFF7
+Black background: #1A140F
+Main color: #FEAA34
+Contrast 1: #856A5D
+Contrast 2: #131653
+Gray light: #B9B1A2
+Gray neutral: #8C8069
+Gray dark: #453F35
+
+*/
+
+.app {
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+}
+
+.background-image{
+  max-width: 50%;
+  transform: translate(50%, -175%);
+  position: relative;
+  bottom: -800rem;
+}
+

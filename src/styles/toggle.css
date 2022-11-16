@@ -1,0 +1,30 @@
+.toggle-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    padding: 10rem 12rem;
+    border-radius: 15rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 243 204/var(--tw-bg-opacity));
+    margin-top: 84rem;
+}
+
+.toggle{
+    color: #1A140F;
+    font-size: 36rem;
+    font-weight: 400;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 243 204/var(--tw-bg-opacity));
+    padding: 5rem 10rem;
+}
+.toggle:hover{
+    padding: 5rem 10rem;
+    border-radius: 11rem;
+    background-color: #FEAA34;
+    box-shadow: 0 4rem 4rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.button{
+    text-decoration: none;
+    border: none;
+}

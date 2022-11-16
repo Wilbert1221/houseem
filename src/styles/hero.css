@@ -1,0 +1,87 @@
+/*
+Colors
+
+White text: #F7FFF7
+Black background: #1A140F
+Main color: #FEAA34
+Contrast 1: #856A5D
+Contrast 2: #131653
+Gray light: #B9B1A2
+Gray neutral: #8C8069
+Gray dark: #453F35
+
+*/
+
+.hero-container{
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../assets/hero.jpg') no-repeat center center/cover;
+}
+
+.hero-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(0.2rem);
+    z-index: -1;
+}
+
+.hero-ghost{
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 84rem;
+    margin: 124rem 0 0 48rem;
+    position: relative;
+}
+
+.h-texts{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.hero-header{
+    margin-left: 48rem;
+    font-weight: 600;
+    font-size: 64rem;
+    overflow-wrap: nowrap;
+    color: #F7FFF7;
+}
+
+.hero-text{
+    margin: 48rem 0 0 48rem;
+    font-weight: 400;
+    font-size: 28rem;
+    line-height: 1.3;
+    color: #F7FFF7;
+}
+
+.background-image{
+    max-width: 50%;
+    position: absolute;
+    z-index: 1;
+    bottom:0;
+  }
+
+.mockup-hero{
+    width: 25%;
+    z-index: 1;
+}
+
+.bottom{
+    width: 25%;
+    position: absolute;
+    bottom: 50rem;
+    left: 1100rem;
+}

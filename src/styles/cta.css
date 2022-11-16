@@ -1,0 +1,138 @@
+.cta{
+    height: 80vh;
+    background-image: linear-gradient(#F7FFF7 15%, #131653);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border:none;
+
+    position: relative;
+}
+
+.cta-text{
+    font-size: 56rem;
+    padding-top: 64rem;
+    font-weight: 600;
+    color: #1A140F;
+    display: flex;
+    align-items: center;
+    margin: 10rem 136rem 84rem 104rem;
+}
+
+.cta-image{
+    width: 35%;
+    position: absolute;
+    bottom: -15rem;
+    background-color: transparent;
+    opacity: 0.6;
+}
+
+.left{
+    left: 40rem;
+}
+
+.right{
+    right: 40rem;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #FEAA34;
+    color: #F7FFF7;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    height: 18px;
+}
+
+
+
+.cta-ghost{
+    width: 60%;
+    height:14vh;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 100rem;
+    
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    background-image:  linear-gradient(to right,#FEAA34,#1A140F);
+    filter: blur(1.2rem);
+    z-index: 1;
+}
+
+.input-button{
+    height: 100%;
+    width: 100%;
+    border:none;
+    border-radius: 50rem;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.button-container{
+    width: 57%;
+    height:11vh;
+    background-color: #F7FFF7;
+    border-radius: 50rem;
+    
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+
+    font-size: 48rem;
+}
+
+.cta-input{
+    width: 95%;
+    height: 8vh;
+    color: #1A140F;
+    background-color: #F7FFF7;
+    border-radius: 50rem;
+    border:none;
+    position: relative;
+    z-index: 4;
+    
+    font-size: 24rem;
+    padding-left: 20rem;
+    border-style: hidden;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+.cta-button {
+    text-decoration: none;
+    color: #F7FFF7;
+    font-size: 36rem;
+    padding: 18rem 36rem;
+    background-color: #001414;
+    border-radius: 50rem;
+    border: none;
+
+    position: absolute;
+    bottom: 16rem;
+    right: 12rem;
+    
+    z-index: 5;
+}
+
+
+.cta-button:hover {
+  text-shadow: none;
+  box-shadow: 0rem 0rem 1.5rem #FEAA34;
+}

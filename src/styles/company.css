@@ -1,0 +1,29 @@
+.company-container{
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: #1A140F;
+}
+
+.company-header{
+    font-size: 72rem;
+    margin-top: 64rem;
+    font-weight: 600;
+    color: #F7FFF7;
+}
+
+.company-text{
+    font-size: 28rem;
+    line-height: 1.4;
+    margin: 36rem 136rem 84rem 104rem;
+    font-weight: 300;
+    color: #F7FFF7;
+}
+
+.mockup{
+    width: 34%;
+    padding-bottom: 48px;
+}
