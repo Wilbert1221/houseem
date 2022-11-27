@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/toggle.css'
 
 
-function Toggle({active, setActive}) {
+function Toggle({setActive}) {
 
   const setTenant = () => {
     setActive('tenant');

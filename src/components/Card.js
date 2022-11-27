@@ -1,9 +1,7 @@
 import React from 'react';
 import '../styles/security.css';
 
-import blackbox from '../assets/blackbox.svg';
-
-function Card({name, text, image}) {
+function Card({name, text, image, alt}) {
   return (
     <div className='card'>
         <p className='card-header'>
@@ -12,7 +10,7 @@ function Card({name, text, image}) {
         <p className='card-text'>
             {text}
         </p>
-        <img className='card-image' src={image}>
+        <img className='card-image' alt={`${alt}`} src={image}>
         </img>
 
     </div>

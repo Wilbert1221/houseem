@@ -52,8 +52,8 @@ function CTA() {
 	      </div>
       </div>
       <div className="cta-ghost"></div>
-      <img className= 'cta-image left' src={left}></img>
-      <img className= 'cta-image right' src={right}></img>
+      <img className= 'cta-image left' src={left} alt ='technology'></img>
+      <img className= 'cta-image right' src={right} alt ='people collaborating'></img>
     </section>
   )
 }

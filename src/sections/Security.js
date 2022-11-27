@@ -16,14 +16,14 @@ function Security() {
     <section id ='security' className='security-container'>
         <p className='security-header'>
             What is blackbox?
-            <img  className = 'security-logo' src={blackbox}></img>
+            <img  className = 'security-logo' src={blackbox} alt ='cube gray'></img>
         </p>
         <p className = 'security-text'> blackbox is the security engine that ensures that housem is able to protect a user's data. The protection of personal data is a high priority issue for users and data privacy is central to housem. </p>
         <div className='card-container'>
-            <Card name = {'100% Guarantee'} text = "100% transparency. Code is completely visible with open source review opportunities" image = {protection}/>
-            <Card name = {'Personal Data'} text = "Users should be able to leverage their personal data for their benefit without worry" image = {personal}/>
-            <Card name = {'Cutting Edge'} text = "Connects data encrpytion and Machine Learning to dually benefit and protect users" image = {guarantee}/>
-            <Card name = {'Surveillance Proof'} text = "We can't see the data for individuals users ourselves so we cannot misuse data" image = {surveillance}/>
+            <Card name = {'100% Guarantee'} text = "100% transparency. Code is completely visible with open source review opportunities" image = {protection} alt ={'protection'}/>
+            <Card name = {'Personal Data'} text = "Users should be able to leverage their personal data for their benefit without worry" image = {personal} alt ={'personal'}/>
+            <Card name = {'Cutting Edge'} text = "Connects data encrpytion and Machine Learning to dually benefit and protect users" image = {guarantee} alt ={'guarantee'}/>
+            <Card name = {'Surveillance Proof'} text = "We can't see the data for individuals users ourselves so we cannot misuse data" image = {surveillance} alt ={'surveillance'}/>
         </div>
         <div className = 'design-stripe'>
           Here
